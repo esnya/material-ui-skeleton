@@ -1,5 +1,6 @@
 'use strict';
 
+import { AppBar } from 'material-ui';
 import React, { PropTypes } from 'react';
 
 let App = React.createClass({
@@ -8,7 +9,10 @@ let App = React.createClass({
 
     render: function() {
         return (
-                <div>React Skeleton</div>
+                <div>
+                    <AppBar title="React Skeleton" />
+                    <div className="message">with Material UI</div>
+                </div>
                );
     },
 });
