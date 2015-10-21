@@ -4,7 +4,8 @@
   "description": "App skelton with React.js",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "node postinstall.js"
   },
   "repository": {
     "type": "git",
@@ -26,13 +27,14 @@
     "gulp-webserver": "*",
     "harmony": "*",
     "jest-cli": "*",
-    "material-ui": "^0.12.3",
+    "material-ui": "git://github.com/callemall/material-ui.git",
     "open": "*",
-    "react": "^0.13.3",
+    "react": "^0.14.0",
+    "react-addons-test-utils": "^0.14.0",
     "react-dom": "^0.14.0",
-    "react-tap-event-plugin": "^0.1.8",
-    "react-tools": "*",
-    "reactify": "*",
+    "react-tap-event-plugin": "^0.2.0",
+    "react-tools": "^0.13.3",
+    "reactify": "^1.1.1",
     "through": "*"
   },
   "jest": {
