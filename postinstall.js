@@ -16,17 +16,19 @@ fs.exists('node_modules/material-ui', function(exists) {
 
         var cleanup = function() {
             fs.exists('node_modules/material-ui/node_modules', function(exists) {
-                console.log('Clean Up');
-                fs.readdir('node_modules/material-ui/node_modules', function(error, dir) {
-                    if (error) throw error;
+                if (exists) {
+                    console.log('Clean Up');
+                    fs.readdir('node_modules/material-ui/node_modules', function(error, dir) {
+                        if (error) throw error;
 
-                    dir.filter(function(module) {
-                        return module.charAt(0) != '.';
-                    }).forEach(function(module) {
-                        console.log(module);
-                        cp.spawn(npm, ['remove', module], options);
+                        dir.filter(function(module) {
+                            return module.charAt(0) != '.';
+                        }).forEach(function(module) {
+                            console.log(module);
+                            cp.spawn(npm, ['remove', module], options);
+                        });
                     });
-                });
+                }
             });
         };
 
