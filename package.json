@@ -4,8 +4,7 @@
   "description": "App skelton with React.js",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "postinstall": "node postinstall.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -27,7 +26,7 @@
     "gulp-webserver": "*",
     "harmony": "*",
     "jest-cli": "*",
-    "material-ui": "git://github.com/callemall/material-ui.git",
+    "material-ui": "^0.13.0",
     "open": "*",
     "react": "^0.14.0",
     "react-addons-test-utils": "^0.14.0",
