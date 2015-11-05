@@ -28,19 +28,24 @@
     "gulp-webserver": "^0.9.1",
     "harmonize": "^1.4.4",
     "jest-cli": "^0.6.1",
+    "material-ui": "^0.13.0",
     "open": "0.0.5",
     "react": "^0.14.1",
     "react-addons-test-utils": "^0.14.1",
     "react-dom": "^0.14.1",
+    "react-tap-event-plugin": "^0.2.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   },
   "jest": {
     "scriptPreprocessor": "jest/preprocessor.js",
+    "setupEnvScriptFile": "jest/env.js",
     "unmockedModulePathPatterns": [
       "react",
+      "react-addons-test-utils",
       "react-dom",
-      "react-addons-test-utils"
+      "react-tap-event-plugin",
+      "material-ui"
     ]
   }
 }
