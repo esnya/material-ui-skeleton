@@ -4,7 +4,7 @@
   "description": "App skelton with React.js",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/jest"
+    "test": "./node_modules/.bin/jest --verbose"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,7 @@
     "gulp-notify": "^2.2.0",
     "gulp-webserver": "^0.9.1",
     "harmonize": "^1.4.4",
-    "jest-cli": "^0.6.1",
+    "jest-cli": "^0.7.1",
     "material-ui": "^0.13.0",
     "open": "0.0.5",
     "react": "^0.14.1",
