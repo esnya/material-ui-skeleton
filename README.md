@@ -1,6 +1,6 @@
-# React Skeleton
+# Material UI Skeleton
 
-Skeleton files for web applications with React.js.
+Skeleton project for web applications with Babel, React.js and material-ui.
 
 ## Features
 * Gulp task set
