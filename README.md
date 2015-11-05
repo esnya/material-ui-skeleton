@@ -1,4 +1,4 @@
-# Material UI Skeleton
+# Material UI Skeleton [![Build Status](https://travis-ci.org/ukatama/material-ui-skeleton.svg?branch=master)](https://travis-ci.org/ukatama/material-ui-skeleton)
 
 Skeleton project for web applications with Babel, React.js and material-ui.
 
