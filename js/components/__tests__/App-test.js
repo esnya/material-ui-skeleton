@@ -1,12 +1,12 @@
 'use strict';
 
-jest.dontMock('../js/app.js');
+jest.dontMock('../App.js');
 describe('App', function() {
     var React = require('react');
     var ReactDOM = require('react-dom');
     var TestUtils = require('react-addons-test-utils');
-    var App = require('../js/app.js');
 
+    var App = require('../App.js');
 
     it('should contain a test message', function () {
         var app = TestUtils.renderIntoDocument(<App />);
